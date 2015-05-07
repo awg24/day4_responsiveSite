@@ -1,0 +1,176 @@
+$fontStyle: Helvetica;
+$optionsFontColor: rgb(78,96,103);
+
+$personal: rgb(39,153,82);
+$smallBusiness: rgb(44,67,135);
+$enterprise: rgb(17,17,17);
+
+.background {
+
+	border: 2px solid black;
+
+	.header {
+		font-family: $fontStyle;
+
+		div{
+			&:first-child {
+			float:left;
+			margin-right: 15px;
+			margin-bottom: 10px;
+			}
+			&:nth-child(2){
+				float:left;
+				margin-right: 15px;
+				margin-bottom: 10px;
+			}
+			&:nth-child(3){
+				float:left;
+				margin-right: 15px;
+				margin-bottom: 10px;
+			}
+			&:last-child{
+				float:left;
+				margin-bottom: 10px;
+			}
+		}
+	
+	}
+
+	.header-picture {
+		font-size: 40px;
+		text-align: center;
+		text-shadow: 1px 1px black;
+		color: white;
+		padding-top: 130px;
+		height:240px;
+		clear: left;
+		margin-right: 1px;
+		margin-left: 1px;
+		background-image: url(images/background.jpg);
+	}
+
+	.options {
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 50px;
+		margin-bottom: 50px;
+		
+
+		.cost {
+			text-align: center;
+			margin-top: 15px;
+			padding-top: 15px;
+			padding-bottom:15px;
+			color: white;
+			font-family: $fontStyle;
+			border-left: 1px solid LightGrey;
+			border-right: 1px solid LightGrey;
+
+			.text-edit1 {
+				font-size: 20px;
+			}
+			.text-edit2 {
+				font-size: 100px;
+			}
+			.text-edit3 {
+				font-size: 25px;
+				color: rgb(155,204,167);
+			}
+			.per-month-blk {
+				color: rgb(135,135,135);
+			}
+			.per-month-blue{
+				color: rgb(148,161,195);
+			}
+
+
+		}
+
+		.bottom-borders {
+			border-bottom: 1px solid LightGrey;
+		}
+
+		.perks {
+			padding-top: 20px;
+			padding-bottom: 20px;
+			text-align: center;
+			font-family: $fontStyle;
+			color: $optionsFontColor;
+			border-top: 1px solid LightGrey;
+			border-left: 1px solid LightGrey;
+			border-right: 1px solid LightGrey;
+		  	background: rgb(247,247,247);
+		}
+
+		.chose {
+			background: white;
+			position: relative;
+			padding: 15px;
+			height: 50px;
+
+			.button {
+				position: absolute;
+				padding-top:10px;
+				top: 20%;
+				right: 40%;		
+				font-weight: bold;
+				height:40%;
+				width: 20%;
+				border: 1px solid LightGrey;
+				border-radius: 25px;
+
+			}
+		}
+
+		.personal {
+			background: $personal;
+		}
+		.enterprise {
+			background: $enterprise;		
+		}
+		.smallBusiness {
+			background: $smallBusiness;
+		}
+
+	}
+
+	.selling-point {
+		margin-top: 200px;
+		margin-left: 25px;
+		margin-right: 25px;
+
+			& :first-child{
+				font-size: 30px;
+				font-family: $fontStyle;
+			}
+			
+			& :last-child{
+				font-size: 17px;
+				color: rgb(82,96,102);
+			}
+	}
+	.selling-point-margin-bottom {
+		margin-top: 30px;
+	}
+
+	.footer {
+		margin-top: 15px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		background: black;
+		color: gray;
+		font-family: $fontStyle;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	@media (min-width: 480px){
+	    .selling-point {
+
+	        & :first-child{
+	        	font-size: 20px;
+	        }
+    }
+}
+
+}

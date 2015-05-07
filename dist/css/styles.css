@@ -1,0 +1,112 @@
+.background {
+  border: 2px solid black; }
+  .background .header {
+    font-family: Helvetica; }
+    .background .header div:first-child {
+      float: left;
+      margin-right: 15px;
+      margin-bottom: 10px; }
+    .background .header div:nth-child(2) {
+      float: left;
+      margin-right: 15px;
+      margin-bottom: 10px; }
+    .background .header div:nth-child(3) {
+      float: left;
+      margin-right: 15px;
+      margin-bottom: 10px; }
+    .background .header div:last-child {
+      float: left;
+      margin-bottom: 10px; }
+  .background .header-picture {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: white;
+    padding-top: 130px;
+    height: 240px;
+    clear: left;
+    margin-right: 1px;
+    margin-left: 1px;
+    background-image: url(images/background.jpg); }
+  .background .options {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 50px;
+    margin-bottom: 50px; }
+    .background .options .cost {
+      text-align: center;
+      margin-top: 15px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+      color: white;
+      font-family: Helvetica;
+      border-left: 1px solid LightGrey;
+      border-right: 1px solid LightGrey; }
+      .background .options .cost .text-edit1 {
+        font-size: 20px; }
+      .background .options .cost .text-edit2 {
+        font-size: 100px; }
+      .background .options .cost .text-edit3 {
+        font-size: 25px;
+        color: #9bcca7; }
+      .background .options .cost .per-month-blk {
+        color: #878787; }
+      .background .options .cost .per-month-blue {
+        color: #94a1c3; }
+    .background .options .bottom-borders {
+      border-bottom: 1px solid LightGrey; }
+    .background .options .perks {
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      font-family: Helvetica;
+      color: #4e6067;
+      border-top: 1px solid LightGrey;
+      border-left: 1px solid LightGrey;
+      border-right: 1px solid LightGrey;
+      background: #f7f7f7; }
+    .background .options .chose {
+      background: white;
+      position: relative;
+      padding: 15px;
+      height: 50px; }
+      .background .options .chose .button {
+        position: absolute;
+        padding-top: 10px;
+        top: 20%;
+        right: 40%;
+        font-weight: bold;
+        height: 40%;
+        width: 20%;
+        border: 1px solid LightGrey;
+        border-radius: 25px; }
+    .background .options .personal {
+      background: #279952; }
+    .background .options .enterprise {
+      background: #111111; }
+    .background .options .smallBusiness {
+      background: #2c4387; }
+  .background .selling-point {
+    margin-top: 200px;
+    margin-left: 25px;
+    margin-right: 25px; }
+    .background .selling-point :first-child {
+      font-size: 30px;
+      font-family: Helvetica; }
+    .background .selling-point :last-child {
+      font-size: 17px;
+      color: #526066; }
+  .background .selling-point-margin-bottom {
+    margin-top: 30px; }
+  .background .footer {
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: black;
+    color: gray;
+    font-family: Helvetica;
+    font-size: 20px;
+    text-align: center; }
+  @media (min-width: 480px) {
+    .background .selling-point :first-child {
+      font-size: 20px; } }
