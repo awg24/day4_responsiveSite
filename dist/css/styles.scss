@@ -186,7 +186,19 @@ $enterprise: rgb(17,17,17);
     		clear: left;
     	}
     }
-   
+    @media (min-width: 979px){
+    	
+    	.selling-point {
+    		margin-left: 10%;
+    		width: 35%;
+    		height: 300px;
+    		display: inline-block;
+
+    	}
+    	.footer {
+    		clear:left;
+    	}
+    }
 }
 
 }

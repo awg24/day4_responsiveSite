@@ -121,3 +121,12 @@
     width: 40%; }
   .background .selling-point {
     clear: left; } }
+
+@media (min-width: 480px) and (min-width: 979px) {
+  .background .selling-point {
+    margin-left: 10%;
+    width: 35%;
+    height: 300px;
+    display: inline-block; }
+  .background .footer {
+    clear: left; } }
