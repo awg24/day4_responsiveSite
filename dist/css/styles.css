@@ -86,7 +86,7 @@
     .background .options .smallBusiness {
       background: #2c4387; }
   .background .selling-point {
-    margin-top: 50px;
+    margin-top: 35px;
     margin-left: 25px;
     margin-right: 25px; }
     .background .selling-point :first-child {
@@ -97,6 +97,8 @@
       color: #526066; }
   .background .selling-point-margin-bottom {
     margin-top: 30px; }
+  .background .selling-float {
+    float: left; }
   .background .footer {
     margin-top: 15px;
     padding-top: 20px;
@@ -126,7 +128,5 @@
   .background .selling-point {
     margin-left: 10%;
     width: 35%;
-    height: 300px;
-    display: inline-block; }
-  .background .footer {
-    clear: left; } }
+    height: 250px;
+    display: inline-block; } }
