@@ -33,8 +33,7 @@
   clear: left;
   margin-right: 1px;
   margin-left: 1px;
-  background-image: url(images/background.jpg);
-  background-size: cover; }
+  background-image: url(images/background.jpg); }
 
 .background .options {
   margin-left: 5px;
@@ -151,6 +150,8 @@
     clear: left; } }
 
 @media (min-width: 480px) and (min-width: 979px) {
+  .background .header-picture {
+    background-size: cover; }
   .background .selling-point {
     margin-left: 10%;
     width: 35%;

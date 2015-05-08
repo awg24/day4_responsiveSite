@@ -47,7 +47,6 @@ $enterprise: rgb(17,17,17);
 		margin-right: 1px;
 		margin-left: 1px;
 		background-image: url(images/background.jpg);
-		background-size: cover;
 	}
 
 	.options {
@@ -191,6 +190,10 @@ $enterprise: rgb(17,17,17);
     	}
     }
     @media (min-width: 979px){
+
+    	.header-picture {
+    		background-size: cover;
+    	}
     	
     	.selling-point {
     		margin-left: 10%;
