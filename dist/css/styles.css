@@ -2,7 +2,7 @@
   border: 2px solid black; }
 
 .background .header {
-  font-family: Sans-Serif; }
+  font-family: Arial; }
 
 .background .header div:first-child {
   float: left;
@@ -48,7 +48,7 @@
   padding-top: 15px;
   padding-bottom: 15px;
   color: white;
-  font-family: Sans-Serif;
+  font-family: Arial;
   border-left: 1px solid LightGrey;
   border-right: 1px solid LightGrey; }
 
@@ -75,7 +75,7 @@
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
-  font-family: Sans-Serif;
+  font-family: Arial;
   color: #4e6067;
   border-top: 1px solid LightGrey;
   border-left: 1px solid LightGrey;
@@ -115,7 +115,7 @@
 
 .background .selling-point :first-child {
   font-size: 30px;
-  font-family: Sans-Serif; }
+  font-family: Arial; }
 
 .background .selling-point :last-child {
   font-size: 17px;
@@ -130,7 +130,7 @@
   padding-bottom: 20px;
   background: black;
   color: gray;
-  font-family: Sans-Serif;
+  font-family: Arial;
   font-size: 20px;
   text-align: center; }
 
