@@ -1,4 +1,4 @@
-$fontStyle: Helvetica;
+$fontStyle: Sans-Serif;
 $optionsFontColor: rgb(78,96,103);
 
 $personal: rgb(39,153,82);
@@ -47,6 +47,7 @@ $enterprise: rgb(17,17,17);
 		margin-right: 1px;
 		margin-left: 1px;
 		background-image: url(images/background.jpg);
+		background-size: cover;
 	}
 
 	.options {
