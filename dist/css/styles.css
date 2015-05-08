@@ -35,12 +35,6 @@
   margin-left: 1px;
   background-image: url(images/background.jpg); }
 
-.background .options {
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 50px;
-  margin-bottom: 50px; }
-
 .background .options .cost {
   text-align: center;
   margin-top: 15px;
@@ -140,19 +134,30 @@
 @media (min-width: 480px) and (min-width: 767px) {
   .background .options {
     width: 25%;
-    margin: 0 auto;
-    margin-left: 6%;
     margin-bottom: 20px;
     float: left; }
+  .background .middle-option-margin {
+    margin-right: 100px;
+    margin-left: 100px; }
   .background .button {
     width: 40%; }
   .background .selling-point {
-    clear: left; } }
+    clear: left; }
+  .background .options-parent {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; } }
 
 @media (min-width: 480px) and (min-width: 979px) {
   .background .header-picture {
     background-size: cover; }
+  .background .options {
+    max-width: 240px; }
+  .background .selling-point-parent {
+    margin-left: 18%;
+    margin-right: 18%; }
   .background .selling-point {
+    max-width: 290px;
     margin-left: 10%;
     width: 35%;
     height: 250px;

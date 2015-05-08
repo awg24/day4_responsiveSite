@@ -50,11 +50,6 @@ $enterprise: rgb(17,17,17);
 	}
 
 	.options {
-		margin-left: 5px;
-		margin-right: 5px;
-		margin-top: 50px;
-		margin-bottom: 50px;
-		
 
 		.cost {
 			text-align: center;
@@ -139,12 +134,12 @@ $enterprise: rgb(17,17,17);
 		margin-right: 25px;
 		margin-bottom: 10px;
 
-			& :first-child{
+			& :first-child {
 				font-size: 30px;
 				font-family: $fontStyle;
 			}
 			
-			& :last-child{
+			& :last-child {
 				font-size: 17px;
 				color: rgb(82,96,102);
 			}
@@ -177,10 +172,12 @@ $enterprise: rgb(17,17,17);
     @media (min-width: 767px){
     	.options {
     		width: 25%;
-    		margin: 0 auto;
-    		margin-left: 6%;
     		margin-bottom: 20px;
     		float:left;
+    	}
+    	.middle-option-margin {
+    		margin-right: 100px;
+    		margin-left: 100px;
     	}
     	.button {
     		width: 40%;
@@ -188,24 +185,43 @@ $enterprise: rgb(17,17,17);
     	.selling-point {
     		clear: left;
     	}
+
+    	.options-parent {
+    		display: flex;
+			flex-direction: row;
+		    justify-content: center;
+    	}
     }
+
     @media (min-width: 979px){
+
 
     	.header-picture {
     		background-size: cover;
     	}
-    	
+
+    	.options {
+    		max-width: 240px;
+    		
+    	}
+    
+    	.selling-point-parent {
+    		margin-left: 18%;
+    		margin-right: 18%;
+
+    	}
+
     	.selling-point {
+    		max-width: 290px;
     		margin-left: 10%;
     		width: 35%;
     		height: 250px;
-    		display: inline-block;
-
-    		
+    		display: inline-block;	
     	}
+
     	.selling-float {
-				float: left;
-			}
+			float: left;
+		}
  
     }
 }
