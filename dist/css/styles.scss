@@ -137,6 +137,7 @@ $enterprise: rgb(17,17,17);
 		margin-top: 35px;
 		margin-left: 25px;
 		margin-right: 25px;
+		margin-bottom: 10px;
 
 			& :first-child{
 				font-size: 30px;
@@ -147,14 +148,13 @@ $enterprise: rgb(17,17,17);
 				font-size: 17px;
 				color: rgb(82,96,102);
 			}
-	}
-	.selling-point-margin-bottom {
-		margin-top: 30px;
-	}
-	.selling-float {
-		float: left;
-	}
 
+	}
+	
+	.selling-point-margin-bottom {
+		margin-bottom: 30px;
+	}
+	
 	.footer {
 		margin-top: 15px;
 		padding-top: 20px;
@@ -197,7 +197,11 @@ $enterprise: rgb(17,17,17);
     		height: 250px;
     		display: inline-block;
 
+    		
     	}
+    	.selling-float {
+				float: left;
+			}
  
     }
 }
